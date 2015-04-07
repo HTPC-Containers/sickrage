@@ -1,0 +1,1 @@
+docker run --name sickrage -d -v /opt/sickrage/config:/config -v /media/tv:/data -v /media/transmission/downloads/:/done -p 8081:8081 htpccontainers/sickrage
